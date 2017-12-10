@@ -6,7 +6,7 @@ CREATE TABLE Products (
 ItemID int NOT NULL,
 ProductName varchar(50) NOT NULL,
 DepartmentName varchar(50) NOT NULL,
-Price DECIMAL(4,2) NOT NULL,
+Price DECIMAL(10,2) NOT NULL,
 StockQuantity int NOT NULL);
 
 INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) VALUES (
