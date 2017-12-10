@@ -1,0 +1,33 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "A MySQL & NodeJS application that manages inventory and purchases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celliott113/Bamazon.git"
+  },
+  "keywords": [
+    "Bamazon",
+    "MySQL",
+    "NodeJS",
+    "Application",
+    "Inventory"
+  ],
+  "author": "Christopher Elliott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celliott113/Bamazon/issues"
+  },
+  "homepage": "https://github.com/celliott113/Bamazon#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "mysql": "^2.15.0",
+    "prompt": "^1.0.0",
+    "safe": "^0.4.5"
+  }
+}
